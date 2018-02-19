@@ -18,18 +18,17 @@ function comenzar()
     //alert(numeroSecreto );
     alert(numeroSecreto);
 }
+var contadorIntentos = 0;
 function verificar()
 {
-
 var numeroElegido;
 var sePasa;
 var leFalta;
-var contadorIntentos = 0;
 
+contadorIntentos = contadorIntentos +1;
 document.getElementById("intentos").value = contadorIntentos;
 if(contadorIntentos < 10)
 
-  contadorIntentos = contadorIntentos + 1;
   numeroElegido = document.getElementById("numero").value;
 	var leFalta = numeroSecreto - numeroElegido;
 	var sePasa = numeroElegido - numeroSecreto;
