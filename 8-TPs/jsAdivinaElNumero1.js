@@ -18,6 +18,7 @@ de no ser igual se debe informar si “falta…”  para llegar al número secre
   contadorIntentos = 0;
   document.getElementById("intentos").value = contadorIntentos;
 }
+
   function verificar()
 {
   var numeroElegido;
