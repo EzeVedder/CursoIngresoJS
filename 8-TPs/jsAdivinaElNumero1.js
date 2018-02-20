@@ -52,3 +52,8 @@ de no ser igual se debe informar si “falta…”  para llegar al número secre
 }
 
 
+//FORMA PARA GENERAR UN NUMERO RANDOM NUEVAMENTE SI EL NUMERO ELEGIDO ES IGUAL AL N secreto
+//while (numeroElegido==numeroSecreto) 
+{
+  //numeroSecreto=Math.floor(Math.random()*(101-1)+1);
+}
