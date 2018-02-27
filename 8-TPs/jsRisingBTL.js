@@ -21,10 +21,25 @@ function ComenzarIngreso ()
  var validarSueldoBruto=true;
  var validarLegajo=true;
  var validarNacionalidad=true;
+ var sueldoMaxNac=0;
+ var sueldoMaxFArg=0;
+ var seguirCarga=true;
+
+
+		num = prompt("Ingrese un número");
+		if(num == null)
+		//si cancelo salgo del while
+		{
+			break;
+		}
 
 while(validarEdad==true)
 {
-    edad=prompt("Ingrese su edad");     
+    edad=prompt("Ingrese su edad"); 
+    if(edad == null) //si cancelo salgo del while
+    {
+        break;
+    }   
     if(edad<18 || edad>90)
     {
         alert("No cumple con los años requeridos");
