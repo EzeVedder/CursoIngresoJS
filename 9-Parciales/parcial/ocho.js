@@ -41,7 +41,6 @@ function Mostrar()
                 }
                 total = total + nPositivo;
                 cantNros = cantNros + 1;
-             
         }
         seguir = confirm("¿Desea continuar?");
     }
